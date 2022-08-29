@@ -1,0 +1,15 @@
+# Server configurations
+server:
+  protocal: "http"
+  host: "127.0.0.1"
+  port: 8080
+# file system
+filesys:
+  #1024*1024*100
+  chunksize: 104857600
+  #1024*1024*16
+  blocksize: 16777216
+  savedir: "c:/Users/luoruofeng/Desktop/tmp/"
+  rootpath: "c:/Users/luoruofeng/Desktop/"
+  compress: true
+  testfilename: "CentOS-7-x86_64-DVD-2009.iso"
